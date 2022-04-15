@@ -4,6 +4,20 @@ using namespace std;
 class Tabungan{
   public:
    //input
+   void input(){
+      cout<<"===== MENGHITUNG MASUKAN DAN PENGELUARAN PERBULAN =====\n\n";
+      cout<<"Masukkan uang saku perbulan = ";
+      cin>>uang_saku;
+      cout<<"masukkan jumlah bulan =";
+      cin>>bulan;
+      cout<<endl;
+      for(int i=0;i<bulan;i++){
+        cout<<"Masukkan pengeluaran bulan ke-"<<i+1<<" ";
+        cin>>pengeluaran_perbulan[i];
+      }
+      cout<<endl;
+      cout<<"=============================================\n\n";
+    }
    
    //proses
    void proses(){

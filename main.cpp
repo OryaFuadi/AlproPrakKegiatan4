@@ -54,6 +54,7 @@ class Tabungan{
 
 int main(){
   Tabungan tab;
+  tab.input();
   tab.proses();
   tab.output();
 
